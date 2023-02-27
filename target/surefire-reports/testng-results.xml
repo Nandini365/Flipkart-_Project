@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-27T09:30:28 IST" name="All Test Suite" finished-at="2023-02-27T09:31:06 IST" duration-ms="37723">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@323b36e0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-02-27T09:30:28 IST" name="C:/Users/navee/Bewakoof-Sprint2" finished-at="2023-02-27T09:31:06 IST" duration-ms="37723">
+      <class name="runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@323b36e0]" started-at="2023-02-27T09:30:28 IST" name="setUpClass" finished-at="2023-02-27T09:30:29 IST" duration-ms="709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2617f816]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@323b36e0]" started-at="2023-02-27T09:30:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-27T09:31:03 IST" duration-ms="34605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that user can search with different products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search a product feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@323b36e0]" started-at="2023-02-27T09:30:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-27T09:31:03 IST" duration-ms="34575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that user can search with different products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search a product feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@323b36e0]" started-at="2023-02-27T09:30:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-27T09:31:03 IST" duration-ms="34575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that user can search with incorrect input"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search a product feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@323b36e0]" started-at="2023-02-27T09:30:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-27T09:31:03 IST" duration-ms="34664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user can  search with special characters"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search a product feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@323b36e0]" started-at="2023-02-27T09:30:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-27T09:31:03 IST" duration-ms="34531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify that the user can be visible to searchbar"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search a product feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@323b36e0]" started-at="2023-02-27T09:30:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-27T09:31:03 IST" duration-ms="34544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user can search with multiple keywords"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search a product feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@323b36e0]" started-at="2023-02-27T09:31:03 IST" name="tearDownClass" finished-at="2023-02-27T09:31:06 IST" duration-ms="2284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestRunner -->
+    </test> <!-- C:/Users/navee/Bewakoof-Sprint2 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
